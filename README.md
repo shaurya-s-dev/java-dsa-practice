@@ -1,36 +1,48 @@
-
 # Java DSA Practice
 
-My ongoing practice log solving LeetCode problems in Java, building
-fundamentals in Basic Maths, Bitwise Operators, and Arrays as part of my
-DSA prep (following CodeHelp by Babbar's series).
+My ongoing practice log solving DSA problems in Java, following
+[Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
+and [CodeHelp by Babbar's](https://www.youtube.com/@CodeHelp) DSA series.
 
-Each problem folder includes my solution along with notes on my first
-approach, what broke, and how I corrected it — not just the final code.
+📄 **[Read my full Practice Log](Leetcode%20Problems/PRACTICE-LOG.md)** — approach,
+what broke, and how I corrected it, for every problem solved so far.
 
-## Progress
+## Progress (Striver A2Z Sheet)
 
-| # | Problem | Topic | Difficulty | Solution |
-|---|---------|-------|------------|----------|
-| 1 | Two Sum | Array | Easy | [Solution](Arrays/001-TwoSum/Solution.java) |
-| 7 | Reverse Integer | Basic Maths | Medium | [Solution](BasicMaths/007-ReverseInteger/Solution.java) |
-| 9 | Palindrome Number | Basic Maths | Easy | [Solution](BasicMaths/009-PalindromeNumber/Solution.java) |
-| 27 | Remove Element | Array | Easy | [Solution](Arrays/027-RemoveElement/Solution.java) |
-| 66 | Plus One | Array | Easy | [Solution](Arrays/066-PlusOne/Solution.java) |
-| 136 | Single Number | Bitwise | Easy | [Solution](Bitwise/136-SingleNumber/Solution.java) |
-| 169 | Majority Element | Array | Easy | [Solution](Arrays/169-MajorityElement/Solution.java) |
-| 231 | Power of Two | Bitwise | Easy | [Solution](Bitwise/231-PowerOfTwo/Solution.java) |
-| 326 | Power of Three | Basic Maths | Easy | [Solution](BasicMaths/326-PowerOfThree/Solution.java) |
-| 342 | Power of Four | Bitwise | Easy | [Solution](Bitwise/342-PowerOfFour/Solution.java) |
-| 258 | Add Digits | Basic Maths | Easy | [Solution](BasicMaths/258-AddDigits/Solution.java) |
-| 2119 | A Number After a Double Reversal | Basic Maths | Easy | [Solution](BasicMaths/2119-DoubleReversal/Solution.java) |
+Currently at **Learn the basics** and starting **Solve Problems on Arrays**.
 
-## Topics covered so far
-- ✅ Basic Maths
-- ✅ Bitwise Operators
-- 🔄 Arrays (in progress)
-- ⬜ Recursion
-- ⬜ Hashing
-- ⬜ Linked List
+| Section | Status |
+|---|---|
+| Things to Know in C++/Java/Python | ✅ Done |
+| Build-up Logical Thinking | ✅ Done |
+| Patterns | ✅ Done |
+| Java Collections | ✅ Done |
+| Know Basic Maths | 🔄 In Progress |
+| Learn Basic Recursion | ⬜ Not started |
+| Learn Basic Hashing | ⬜ Not started |
+| Sorting Techniques | ⬜ Not started |
+| Arrays [Easy → Medium → Hard] | 🔄 In Progress |
+| Binary Search | ⬜ Not started |
+| Strings | ⬜ Not started |
+| Linked List | ⬜ Not started |
+| Bit Manipulation | 🔄 In Progress |
 
-## Structure
+## Repo structure
+
+```
+Leetcode Problems/
+├── PRACTICE-LOG.md          # detailed notes: approach, bugs, corrections
+├── 01-Basics/
+│   ├── BasicMaths/
+│   ├── Patterns/
+│   ├── LogicalThinking/
+│   └── JavaCollections/
+├── 05-Arrays/
+├── 20-Bitwise/
+└── ...                      # more sections added as I progress
+
+DSA-Notes/                    # general course practice (loops, methods, syntax)
+```
+
+Each solved problem is a `.java` file named after the problem, organized by
+Striver A2Z sheet section.
