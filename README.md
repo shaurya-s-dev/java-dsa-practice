@@ -1,4 +1,4 @@
-# java-dsa-practice
+
 # Java DSA Practice
 
 My ongoing practice log solving LeetCode problems in Java, building
